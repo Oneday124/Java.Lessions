@@ -34,5 +34,12 @@ public class cycles {
             System.out.println(i); // 0
         }
 
+        int[] arr = new int[] { 1, 2, 3, 4, 5, 77 }; // цикл foreach (for in) - применим только для коолекций - перебор
+                                                     // значений
+        for (int item : arr) {
+            System.out.println(item); // 1, 2, 2 ... 77
+
+        }
+
     }
 }
